@@ -1,5 +1,10 @@
-console.log("hello ji")
-console.log("radhe radhe ")
-console.log("ram ram bhai sareya ne ")
-console.log("radhe radhe ")
-console.log(2+3)
+//scope of variables in JS
+let a ="ramesh";
+function hello(){
+    let b ="shyam";
+    console.log(b)
+    console.log(a)
+}
+hello()
+console.log(a)
+

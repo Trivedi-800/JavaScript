@@ -33,3 +33,27 @@
 // }
 
 // console.log(loginUserMessage("abhi"))
+
+ //rest operator in javascript 
+// function CalculateCartPrice(val1,val2,...num1){ // 
+//     return num1
+//  }
+//  console.log(CalculateCartPrice(200,400,500,2000))
+
+//object in function
+const user={
+    username:"abhishek ",
+    price : 199
+} 
+function handleObject(aa){
+    console.log(`Username is ${aa.username} and price is ${aa.price}`);
+}
+handleObject(user)
+
+//Array in javascript 
+const myNewArray=[200,300,400,500]
+function returnSecondValue(getArray){
+    return getArray[2]
+
+}
+console.log(returnSecondValue(myNewArray));
